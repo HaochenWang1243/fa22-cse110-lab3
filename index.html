@@ -1,3 +1,16 @@
+<!-- a title (e.g. "Pomodoro Timer First Brainstorm")
+subtitle for the meeting section/the topic of the meeting (e.g. "brainstorming", "check-ins", "documentation")
+subtitle for the date
+attendance list
+agenda of what the meeting will cover
+things that were unfinished business from last meeting
+things that are new business that need to be talked about
+any miscellaneous comments / questions / concerns that anyone would like to bring up
+pictures of any diagrams / architecture / things that were presented
+SWE meetings often have people diagram things on a whiteboard so we want those captured as well
+For the following two, you can simply take a 30 second pretend audio recording & video recording to use, we are just trying to get you familiar with the <audio> and <video> elements. Yes, you must have both audio and video elements, and yes, you can use the audio from the video you took for the audio element, it just has to be in a separate audio file.
+audio recording the meeting
+video recording of the meeting -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -12,14 +25,30 @@
         <h3>07/10/2022</h3>
     </header>
     <main>
-        <h3>attendees</h3>
-        <ul>
-            <li>Danie Kane</li>
-            <li>Xinle Yu</li>
-            <li>Tongyun Zhang</li>
-            <li>Haochen Wang</li>
-        </ul>
-        <h3>agenda</h3>
+        <div>
+            <h3>attendees</h3>
+            <section>
+                <ul>
+                    <li>Danie Kane</li>
+                    <li>Xinle Yu</li>
+                    <li>Tongyun Zhang</li>
+                    <li>Haochen Wang</li>
+                </ul>
+            </section>
+            <h3>agenda</h3>
+            <ol>
+                <li>Review of last meeting: practice problems</li>
+                <li>New topics to be taught</li>
+                <li>Practice problems on the new topics</li>
+                <li>concepts review & problem-solving skills</li>
+            </ol>
+            
+        </div>
+        <h3>From last meeting</h3>    
+            <p>
+                Last time we discussed the questions in past exam paper about <span>number theory</span> and <span>probability</span>
+            </p>
+        <h3>This meeting will cover the following topics:</h3>
         <nav>
             <ol>
                 <li><a href="https://en.wikipedia.org/wiki/Algebraic_geometry">algebraic geometry</a></li>
@@ -27,9 +56,9 @@
                 <li><a href="https://en.wikipedia.org/wiki/Mathematical_optimization">optimization</a></li>
             </ol>
         </nav>
-    </main>
-    <footer>
+        <footer>
         
-    </footer>
+        </footer>
+    </main>
   </body>
 </html>
