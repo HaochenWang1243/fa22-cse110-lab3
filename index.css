@@ -1,9 +1,12 @@
-
+@font-face {
+    font-family: "pixel";
+    src: url("./Silkscreen-Regular.ttf");
+}
 body{
     color: #FFF;
     background-image: url("./AR15\(Girls\ Frontline\).jpeg");
     background-size: cover;
-    margin-left: 10%;
+    margin-left: 2em;
 }
 #date{
     margin: 0px 0px 0px 20%;
@@ -17,12 +20,12 @@ nav{
     border-style: dotted;
     border-width: 20px;
     border-color: aquamarine;
-    border-radius: 100px;
+    border-radius: 1in;
 }
 nav li{
     padding-top: 10px;
     padding-bottom: 10px;
-    height: 10%;
+    height: 5vh;
 }
 header {
     color: brown;
@@ -37,17 +40,60 @@ video,audio{
     padding-left: 250px;
     display: inline-block
 }
+form{
+    width: 150%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
 form > *{
-    padding-right: 200px;
+    padding-right: 50pt;
     display: block;
+}
+form textarea{
+    position: relative;
+    margin-left: 20vw;
 }
 p{
     text-align: center;
 }
 p:hover{
-    color:hotpink
-    
+    color:hotpink;
+    font-family: "pixel"
 }
 h1{
     position: fixed;
+}
+h1:active{
+    color: aqua;
+}
+.media{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px 100px;
+
+}
+.media audio{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+@media (max-width: 1250px) {
+    body{
+        background-color: bisque;
+    }
+}
+h3[style="font-family: pixel;"]{
+    color: gold;
+}
+section li ~li{
+    font-family: "pixel";
+}
+h1+h2{
+    font-family: "pixel";
+}
+div.media{
+    background-color: rgba(212,175,55,0.2);
 }
