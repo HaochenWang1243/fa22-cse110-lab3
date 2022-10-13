@@ -1,0 +1,53 @@
+
+body{
+    color: #FFF;
+    background-image: url("./AR15\(Girls\ Frontline\).jpeg");
+    background-size: cover;
+    margin-left: 10%;
+}
+#date{
+    margin: 0px 0px 0px 20%;
+}
+nav{
+    padding: 0px 10px 0px 0px;
+    background-color: hsla(0, 0%, 100%,0.5);
+    width: 180%;
+    min-width: 150%;
+    max-width: 200%;
+    border-style: dotted;
+    border-width: 20px;
+    border-color: aquamarine;
+    border-radius: 100px;
+}
+nav li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 10%;
+}
+header {
+    color: brown;
+    margin: auto;
+}
+strong{
+    color: rgb(212,175,55);
+    text-decoration-line:line-through;
+}
+video,audio{
+    padding: auto;
+    padding-left: 250px;
+    display: inline-block
+}
+form > *{
+    padding-right: 200px;
+    display: block;
+}
+p{
+    text-align: center;
+}
+p:hover{
+    color:hotpink
+    
+}
+h1{
+    position: fixed;
+}
